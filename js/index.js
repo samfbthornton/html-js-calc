@@ -20,3 +20,7 @@ const divide = () => {
 const cancel = () => {
     res.value = 0;
 }
+
+const power = () => {
+    res.value = Number.parseInt(num1.value) ** Number.parseInt(num2.value);
+}
