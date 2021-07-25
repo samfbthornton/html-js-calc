@@ -9,6 +9,7 @@
 </head>
 
 <body style="background-color: pink">
+    <div  id="calculator">
     <h1>Calculator</h1>
     <label for="Num1">Number 1</label>
     <input id="Num1" type="number" style="background-color: slategrey">
@@ -18,12 +19,16 @@
     <input id="Res" readonly type="number" style="background-color: slategrey;"></label>
     <br>
     <br>
-    <button onclick="add(event)" style="background-color: slategrey;">+</button>
-    <button onclick="subract(event)" style="background-color: slategrey;">-</button>
-    <button onclick="multiply(event)" style="background-color: slategrey;">x</button>
-    <button onclick="divide(event)" style="background-color: slategrey;">%</button>
-    <button onclick="power(event)" style="background-color: slategrey;">Pow</button>
-    <button onclick="cancel(event)" style="background-color: slategrey;">c</button>
+    <button style="background-color: slategrey;">+</button>
+    <button style="background-color: slategrey;">-</button>
+    <button style="background-color: slategrey;">x</button>
+    <button style="background-color: slategrey;">/</button>
+    <button style="background-color: slategrey;">Pow</button>
+    <button style="background-color: slategrey;">c</button>
+    </div>
+    <div id="history">
+<p></p>
+    </div>
     <script src="./js/index.js"></script>
 </body>
 
